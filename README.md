@@ -11,8 +11,11 @@ test_claude_02/
 ├── script.js           # 인터랙티브 기능
 ├── README.md           # 이 파일
 └── doc/
-    ├── 개발자 포트폴리오 기획서_260622_2.docx  # 원본 기획서
-    └── 개발자 포트폴리오 기획서_260622_2.pdf   # PDF 버전
+    ├── START_HERE.md	            # 🚀 시작 가이드 (먼저 읽으세요!)
+    ├── PROJECT_GUIDE.md	        # 프로젝트 작성 가이드 + 상세 템플릿
+    ├── DEPLOYMENT_GUIDE.md	        # 배포 및 최적화 방법 (GitHub Pages, Netlify 등)
+    ├── 개발자 포트폴리오 기획서_260622.docx    # 원본 기획서
+    └── 개발자 포트폴리오 기획서_260622.pdf     # PDF 버전
 ```
 
 ## 🎨 주요 기능
