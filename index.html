@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backend Developer Portfolio - 신뢰성과 확장성</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">&lt;/&gt;</span>
+                <span class="logo-text">Backend Developer</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#tech-stack" class="nav-link">Tech Stack</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">안정적인 데이터 흐름과<br>확장 가능한 아키텍처를 설계하는</h1>
+                    <h2 class="hero-subtitle">Backend & DB Developer</h2>
+                    <p class="hero-description">
+                        분산 시스템 설계, 데이터베이스 최적화, 고성능 아키텍처 구축을 통해
+                        <span class="highlight">비즈니스 가치를 극대화</span>하는 개발자입니다.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">프로젝트 보기</a>
+                        <a href="#contact" class="btn btn-secondary">연락하기</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="architecture-preview">
+                        <div class="arch-item">
+                            <div class="arch-box">Client</div>
+                        </div>
+                        <div class="arch-arrow">→</div>
+                        <div class="arch-item">
+                            <div class="arch-box">Load Balancer</div>
+                        </div>
+                        <div class="arch-arrow">→</div>
+                        <div class="arch-item">
+                            <div class="arch-box">API Server</div>
+                        </div>
+                        <div class="arch-arrow">→</div>
+                        <div class="arch-item">
+                            <div class="arch-box">Cache</div>
+                        </div>
+                        <div class="arch-arrow">→</div>
+                        <div class="arch-item">
+                            <div class="arch-box">Database</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        안녕하세요. 저는 <span class="highlight">백엔드와 데이터베이스</span> 최적화에 특화된 개발자입니다.
+                    </p>
+                    <p>
+                        5년 이상의 경험을 통해 <strong>대규모 트래픽 처리</strong>, <strong>데이터베이스 성능 개선</strong>, 
+                        <strong>클라우드 인프라 설계</strong>를 전담해왔습니다.
+                    </p>
+                    <p>
+                        특히 다음 분야에 관심이 있습니다:
+                    </p>
+                    <ul class="interests">
+                        <li><i class="fas fa-chevron-right"></i> 분산 시스템 아키텍처</li>
+                        <li><i class="fas fa-chevron-right"></i> 데이터베이스 쿼리 튜닝 및 인덱싱</li>
+                        <li><i class="fas fa-chevron-right"></i> 마이크로서비스 설계 패턴</li>
+                        <li><i class="fas fa-chevron-right"></i> 클라우드 비용 최적화</li>
+                        <li><i class="fas fa-chevron-right"></i> 시스템 모니터링 및 성능 튜닝</li>
+                    </ul>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100M+</div>
+                        <div class="stat-label">Daily Requests</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">99.9%</div>
+                        <div class="stat-label">Uptime</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="tech-stack" class="tech-stack">
+        <div class="container">
+            <h2 class="section-title">Tech Stack</h2>
+            <p class="section-subtitle">깊이 있는 기술 경험으로 복잡한 문제를 해결합니다</p>
+            
+            <div class="tech-grid">
+                <div class="tech-category">
+                    <h3><i class="fas fa-code"></i> Backend Languages</h3>
+                    <div class="tech-list">
+                        <span class="tech-badge">Java</span>
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Node.js</span>
+                        <span class="tech-badge">Go</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3><i class="fas fa-layer-group"></i> Frameworks</h3>
+                    <div class="tech-list">
+                        <span class="tech-badge">Spring Boot</span>
+                        <span class="tech-badge">FastAPI</span>
+                        <span class="tech-badge">Express</span>
+                        <span class="tech-badge">Django</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3><i class="fas fa-database"></i> Database & Cache</h3>
+                    <div class="tech-list">
+                        <span class="tech-badge">PostgreSQL</span>
+                        <span class="tech-badge">MySQL</span>
+                        <span class="tech-badge">MongoDB</span>
+                        <span class="tech-badge">Redis</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3><i class="fas fa-cloud"></i> DevOps & Infrastructure</h3>
+                    <div class="tech-list">
+                        <span class="tech-badge">AWS</span>
+                        <span class="tech-badge">Docker</span>
+                        <span class="tech-badge">Kubernetes</span>
+                        <span class="tech-badge">CI/CD</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Monitoring</h3>
+                    <div class="tech-list">
+                        <span class="tech-badge">Git</span>
+                        <span class="tech-badge">Jira</span>
+                        <span class="tech-badge">Grafana</span>
+                        <span class="tech-badge">ELK Stack</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3><i class="fas fa-bolt"></i> Message Queue & Stream</h3>
+                    <div class="tech-list">
+                        <span class="tech-badge">Apache Kafka</span>
+                        <span class="tech-badge">RabbitMQ</span>
+                        <span class="tech-badge">Apache Storm</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">System Architecture & Projects</h2>
+            <p class="section-subtitle">복잡한 시스템을 설계하고 최적화한 실제 사례들</p>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>E-Commerce 주문 처리 시스템</h3>
+                        <span class="project-tag">Microservices</span>
+                    </div>
+                    <p class="project-description">
+                        대규모 전자상거래 플랫폼의 주문 처리 백엔드 시스템 설계 및 구현
+                    </p>
+                    <div class="project-details">
+                        <div class="detail-item">
+                            <span class="label">기술 스택:</span>
+                            <span class="value">Java Spring Boot, PostgreSQL, Redis, Kafka</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="label">역할:</span>
+                            <span class="value">Backend Architect, DB Optimization</span>
+                        </div>
+                    </div>
+                    <button class="btn-expand" onclick="toggleProjectDetail(this)">상세 보기</button>
+                    <div class="project-detail hidden">
+                        <div class="architecture-section">
+                            <h4>시스템 아키텍처</h4>
+                            <div class="architecture-diagram">
+                                <div class="arch-flow">
+                                    <div class="flow-box primary">Client Apps</div>
+                                    <div class="flow-arrow">↓</div>
+                                    <div class="flow-box">API Gateway<br>(Kong)</div>
+                                    <div class="flow-arrow">↓</div>
+                                    <div class="flow-box">Order Service<br>Payment Service<br>Inventory Service</div>
+                                    <div class="flow-arrow">↓</div>
+                                    <div class="flow-box">PostgreSQL<br>(Primary - Read/Write)</div>
+                                </div>
+                                <div class="flow-box-side">Redis Cache<br>Kafka Event Stream</div>
+                            </div>
+                        </div>
+                        <div class="achievements">
+                            <h4>성과 (Metrics)</h4>
+                            <ul class="achievement-list">
+                                <li>
+                                    <span class="metric">복잡한 쿼리 최적화</span>
+                                    <strong>1,200ms → 80ms (93% 개선)</strong>
+                                </li>
+                                <li>
+                                    <span class="metric">Redis 캐싱 도입</span>
+                                    <strong>API 응답 시간 45% 단축</strong>
+                                </li>
+                                <li>
+                                    <span class="metric">데이터베이스 인덱싱 전략</span>
+                                    <strong>동시 접속자 처리량 3배 증가</strong>
+                                </li>
+                                <li>
+                                    <span class="metric">Kafka를 통한 비동기 처리</span>
+                                    <strong>결제 처리 대기 시간 98% 감소</strong>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="troubleshooting">
+                            <h4>기술적 도전과 해결 (Troubleshooting)</h4>
+                            <div class="challenge">
+                                <h5>문제: N+1 쿼리 문제로 인한 성능 저하</h5>
+                                <p><strong>원인:</strong> 주문 조회 시 각 주문마다 상품 정보를 별도 쿼리로 조회</p>
+                                <p><strong>해결:</strong> JPA Fetch Join과 Query DSL을 활용한 배치 쿼리 최적화</p>
+                                <p><strong>결과:</strong> 1초 이상 걸리던 요청이 100ms 이하로 개선</p>
+                            </div>
+                            <div class="challenge">
+                                <h5>문제: 테이블 락으로 인한 데드락</h5>
+                                <p><strong>원인:</strong> 재고 차감 작업에서 동시성 제어 미흡</p>
+                                <p><strong>해결:</strong> 낙관적 락(Optimistic Locking) 도입 및 재시도 로직 구현</p>
+                                <p><strong>결과:</strong> 데드락 사건 0건 달성</p>
+                            </div>
+                        </div>
+                        <div class="links">
+                            <a href="#" target="_blank" class="link-btn">
+                                <i class="fas fa-code"></i> GitHub 코드 보기
+                            </a>
+                            <a href="#" target="_blank" class="link-btn">
+                                <i class="fas fa-file"></i> API Documentation
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Real-time 데이터 분석 플랫폼</h3>
+                        <span class="project-tag">Data Pipeline</span>
+                    </div>
+                    <p class="project-description">
+                        실시간 로그 수집, 처리 및 분석을 위한 대규모 데이터 파이프라인
+                    </p>
+                    <div class="project-details">
+                        <div class="detail-item">
+                            <span class="label">기술 스택:</span>
+                            <span class="value">Python FastAPI, Kafka, Elasticsearch, TimescaleDB</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="label">역할:</span>
+                            <span class="value">Data Pipeline Architect</span>
+                        </div>
+                    </div>
+                    <button class="btn-expand" onclick="toggleProjectDetail(this)">상세 보기</button>
+                    <div class="project-detail hidden">
+                        <div class="architecture-section">
+                            <h4>데이터 파이프라인 아키텍처</h4>
+                            <div class="architecture-diagram">
+                                <div class="arch-flow" style="flex-direction: column;">
+                                    <div class="flow-box">Application Logs</div>
+                                    <div class="flow-arrow">↓</div>
+                                    <div class="flow-box">Kafka (5 partitions)</div>
+                                    <div class="flow-arrow">↓</div>
+                                    <div class="flow-box">Stream Processors<br>(Kafka Streams)</div>
+                                    <div class="flow-arrow">↓</div>
+                                    <div style="display: flex; gap: 20px;">
+                                        <div class="flow-box">TimescaleDB<br>(Time-series data)</div>
+                                        <div class="flow-box">Elasticsearch<br>(Log search)</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="achievements">
+                            <h4>성과 (Metrics)</h4>
+                            <ul class="achievement-list">
+                                <li>
+                                    <span class="metric">대규모 데이터 처리</span>
+                                    <strong>초당 1,000,000 이벤트 처리</strong>
+                                </li>
+                                <li>
+                                    <span class="metric">실시간 분석</span>
+                                    <strong>99.99% 데이터 정합성 보장</strong>
+                                </li>
+                                <li>
+                                    <span class="metric">스토리지 최적화</span>
+                                    <strong>TimescaleDB 압축으로 80% 용량 절감</strong>
+                                </li>
+                                <li>
+                                    <span class="metric">쿼리 성능</span>
+                                    <strong>10억 레코드 쿼리 평균 200ms</strong>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="troubleshooting">
+                            <h4>기술적 도전과 해결</h4>
+                            <div class="challenge">
+                                <h5>문제: Kafka Consumer Lag 증가</h5>
+                                <p><strong>원인:</strong> 하류 시스템의 처리 속도가 데이터 유입 속도를 따라가지 못함</p>
+                                <p><strong>해결:</strong> Consumer 파티션 분배 최적화 및 병렬 처리 개선</p>
+                                <p><strong>결과:</strong> Lag 감소로 데이터 신선도 95% 향상</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>분산 트랜잭션 결제 시스템</h3>
+                        <span class="project-tag">Distributed Transactions</span>
+                    </div>
+                    <p class="project-description">
+                        Saga 패턴을 활용한 분산 트랜잭션 관리 및 결제 처리 시스템
+                    </p>
+                    <div class="project-details">
+                        <div class="detail-item">
+                            <span class="label">기술 스택:</span>
+                            <span class="value">Java, Spring Cloud, MySQL, Redis</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="label">역할:</span>
+                            <span class="value">Architecture Design, Implementation</span>
+                        </div>
+                    </div>
+                    <button class="btn-expand" onclick="toggleProjectDetail(this)">상세 보기</button>
+                    <div class="project-detail hidden">
+                        <div class="achievements">
+                            <h4>성과 (Metrics)</h4>
+                            <ul class="achievement-list">
+                                <li>
+                                    <span class="metric">트랜잭션 일관성</span>
+                                    <strong>99.98% 성공률</strong>
+                                </li>
+                                <li>
+                                    <span class="metric">처리 속도</span>
+                                    <strong>평균 트랜잭션 완료 시간 2초</strong>
+                                </li>
+                                <li>
+                                    <span class="metric">복구율</span>
+                                    <strong>장애 상황에서 자동 복구율 100%</strong>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="section-subtitle">더 알고 싶으신 내용이 있으신가요?</p>
+            
+            <div class="contact-grid">
+                <a href="https://github.com" target="_blank" class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <p>코드와 프로젝트 보기</p>
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <p>전문성과 경력 연결</p>
+                </a>
+                <a href="https://blog.example.com" target="_blank" class="contact-card">
+                    <i class="fas fa-blog"></i>
+                    <h3>Tech Blog</h3>
+                    <p>기술 이야기와 인사이트</p>
+                </a>
+                <a href="mailto:contact@example.com" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>직접 연락하기</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Backend Developer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
